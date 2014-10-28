@@ -25,6 +25,9 @@ $(function() {
 // Hint: apply default styling to all buttons, and then apply only 'active' (btn-danger)
 // styling to the selected button.
 function setButtonStyle(selectedButton, buttons) {
+    buttons.attr('class', 'btn btn-primary');
+    selectedButton.attr('class', 'btn btn-danger');
+
 
 }
 
@@ -36,7 +39,16 @@ function setButtonStyle(selectedButton, buttons) {
 		-- Remember you can pass in a function to fadeIn/fadeOut. Use it to set attributes during transition.
 */
 function moveImageIntoFrame(button) {
-	console.log('here');
+    var img = button.data('imageKey');
+    var frame = $('#frame img');
+    frame.fadeOut(1000, function(){
+       frame.attr({
+           'src': img.src,
+           'alt': img.alt
+       });
+    frame.fadeIn(1000);
+    });
+	console.log(img);
 }
 
 

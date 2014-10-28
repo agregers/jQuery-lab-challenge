@@ -15,6 +15,10 @@
 
 // This function is the equivalent of document ready
 $(function() {
+    $('#countdownButton').click(function(){
+       console.log('countdown button clicked');
+
+    });
 	/* Hints:
 	 		-- Start by registering the click event for the button.
 	 		-- You will need to keep track of the number of second somewhere.
@@ -26,6 +30,12 @@ $(function() {
 });
 
 function countDown() {
+    var startTime = Date.now();
+    windor.setInterval(function () {
+       var elapsedSeconds = (Date.now() - startTime) / 1000;
+       elapsedSeconds = Math.floor(elapsedSeconds);
+       $('#elapsed-seconds').text(elapsedSeconds + ' seconds');
+    }, 1000);
 	// Hint: if time < 0, stop the countdown, otherwise refresh the timer display & call createConfetti().
 	// Hint: to stop countdown, look up clearInterval() function.
 }
