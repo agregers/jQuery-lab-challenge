@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f0d488b-0e47-4a79-b818-d06df81204fe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/challenge-1/js/app.js" afterPath="$PROJECT_DIR$/challenge-1/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/challenge-2/js/app.js" afterPath="$PROJECT_DIR$/challenge-2/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jQuery-lab-challenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,8 +94,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-89" />
-    <option name="y" value="143" />
+    <option name="x" value="188" />
+    <option name="y" value="165" />
     <option name="width" value="1774" />
     <option name="height" value="1000" />
   </component>
@@ -255,7 +254,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/toolbox-challenge" />
+    <property name="last_opened_file_path" value="$USER_HOME$/javascript-challenge" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -311,8 +310,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-89" y="143" width="1774" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="188" y="165" width="1774" height="1000" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
